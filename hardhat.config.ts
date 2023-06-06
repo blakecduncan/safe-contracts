@@ -41,7 +41,7 @@ import "./src/tasks/show_codesize";
 import { BigNumber } from "@ethersproject/bignumber";
 import { DeterministicDeploymentInfo } from "hardhat-deploy/dist/types";
 
-const primarySolidityVersion = SOLIDITY_VERSION || "0.7.6";
+const primarySolidityVersion = SOLIDITY_VERSION || "0.8.15";
 const soliditySettings = SOLIDITY_SETTINGS ? JSON.parse(SOLIDITY_SETTINGS) : undefined;
 
 const deterministicDeployment = (network: string): DeterministicDeploymentInfo => {
