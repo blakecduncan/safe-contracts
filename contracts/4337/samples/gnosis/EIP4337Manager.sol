@@ -112,7 +112,7 @@ contract EIP4337Manager is IAccount, SafeStorage, Executor {
 
     /**
      * set up a safe as EIP-4337 enabled.
-     * called from the GnosisSafeAccountFactory during construction time
+     * called from the SafeAccountFactory during construction time
      * - enable 3 modules (this module, fallback and the entrypoint)
      * - this method is called with delegateCall, so the module (usually itself) is passed as parameter, and "this" is the safe itself
      */

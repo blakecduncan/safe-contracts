@@ -8,7 +8,7 @@ import "./EIP4337Manager.sol";
 /**
  * A wrapper factory contract to deploy GnosisSafe as an ERC-4337 account contract.
  */
-contract GnosisSafeAccountFactory {
+contract SafeAccountFactory {
 
     SafeProxyFactory public immutable proxyFactory;
     address public immutable safeSingleton;
